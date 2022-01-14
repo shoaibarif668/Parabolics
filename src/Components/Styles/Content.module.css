@@ -1,0 +1,39 @@
+.content__wrapper {
+  padding: 100px 0;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.content__wrapper .content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: "poppins",sans-serif;
+}
+
+.content__wrapper .content h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.content__wrapper .content h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.content__wrapper .content h1 span {
+  color: #18d26e;
+}
+
+.content__wrapper .content p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=Content.module.css.map */

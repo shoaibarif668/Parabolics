@@ -1,0 +1,27 @@
+@import "../../Assets/Styles/mixins";
+@import "../../Assets/Styles/partials";
+
+.btn__wrapper{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    button{
+        background-color: $primary__color;
+        
+        transition: all 0.5s;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        display:flex;
+        svg{
+            color:white;
+            font-size: 20px;
+        }
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+}

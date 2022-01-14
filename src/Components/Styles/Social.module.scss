@@ -1,0 +1,38 @@
+@import "../../Assets/Styles/mixins";
+@import "../../Assets/Styles/partials";
+
+.social__wrapper{
+    font-family:"poppins",sans-serif;
+    padding: 100px 0;
+    background-color: #011a2f;
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        text-align: center;
+        span{
+            color: $primary__color;
+        }
+    }
+    .social__links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            text-decoration: none;
+            font-size: 90px;
+            margin: 0px 50px;
+            transition: all 0.5s;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+        .discord{
+            color: #5865f2;
+        }
+        .telegram{
+            color: #30A8DB;
+        }
+    }
+}

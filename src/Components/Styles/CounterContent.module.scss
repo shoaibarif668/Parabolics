@@ -1,0 +1,20 @@
+@import "../../Assets/Styles/partials";
+@import "../../Assets/Styles/mixins";
+
+.counter__content__wrapper{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    h1,span{
+        font-weight: 700;
+        font-size: 52px;
+        padding-bottom: 10px;
+        font-family: "Poppins", sans-serif;
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 0px;
+        font-family: "Poppins", sans-serif;
+    }
+}

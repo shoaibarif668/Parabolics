@@ -1,0 +1,8 @@
+@import "../../Assets/Styles/partials";
+@import "../../Assets/Styles/mixins";
+
+.banner__wrapper{
+    @include banner("../../Assets/Images/banner.jpg");
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.banner__wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Assets/Images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=banner.module.css.map */

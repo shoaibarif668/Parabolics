@@ -1,0 +1,33 @@
+@import "../../Assets/Styles/partials";
+@import "../../Assets/Styles/mixins";
+
+.content__wrapper{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+    .content{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-family:"poppins",sans-serif;
+        h5{
+            font-size: 22px;
+            font-weight: 500;
+        }
+        h1{
+            font-size: 52px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            span{
+                color: #18d26e;
+            }
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

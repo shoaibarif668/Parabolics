@@ -1,0 +1,25 @@
+.counter__content__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.counter__content__wrapper h1, .counter__content__wrapper span {
+  font-weight: 700;
+  font-size: 52px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.counter__content__wrapper h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=CounterContent.module.css.map */

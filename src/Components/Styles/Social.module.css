@@ -1,0 +1,51 @@
+.social__wrapper {
+  font-family: "poppins",sans-serif;
+  padding: 100px 0;
+  background-color: #011a2f;
+}
+
+.social__wrapper h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social__wrapper h1 span {
+  color: #18d26e;
+}
+
+.social__wrapper .social__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social__wrapper .social__links a {
+  text-decoration: none;
+  font-size: 90px;
+  margin: 0px 50px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.social__wrapper .social__links a:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.social__wrapper .social__links .discord {
+  color: #5865f2;
+}
+
+.social__wrapper .social__links .telegram {
+  color: #30A8DB;
+}
+/*# sourceMappingURL=Social.module.css.map */

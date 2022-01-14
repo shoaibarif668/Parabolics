@@ -1,0 +1,32 @@
+.btn__wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn__wrapper button {
+  background-color: #18d26e;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn__wrapper button svg {
+  color: white;
+  font-size: 20px;
+}
+
+.btn__wrapper button:focus {
+  outline: none;
+}
+
+.btn__wrapper button:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/*# sourceMappingURL=ScrollToTop.module.css.map */

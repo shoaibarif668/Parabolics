@@ -1,0 +1,77 @@
+.plan__wrapper {
+  margin: 50px auto;
+  padding: 50px;
+  width: 50%;
+  border: 1px solid #18d26e;
+  border-radius: 20px;
+}
+
+.plan__wrapper h2 {
+  text-align: center;
+  color: white;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.plan__wrapper .plan__description {
+  margin-top: 60px;
+}
+
+.plan__wrapper .plan__description ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.plan__wrapper .plan__description ul li span {
+  margin-right: 5px;
+  background-color: #00cc95;
+  padding: 10px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.plan__wrapper .plan__description ul li span svg {
+  color: white;
+  font-size: 24px;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership {
+  text-align: center;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership h3 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership h6 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership button {
+  width: 150px;
+  margin-top: 15px;
+  background-color: transparent;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50px;
+  padding: 12px;
+  border: 1px solid #18d26e;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership button:hover {
+  background-color: #18d26e;
+}
+
+.plan__wrapper .plan__description .plan__membership__wrapper .plan__membership button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=plans.module.css.map */

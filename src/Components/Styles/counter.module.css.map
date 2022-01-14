@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,iBAAiB,CAAA;EACb,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,QAAQ;EACjB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "counter.module.scss",
+        "../../Assets/Styles/_mixins.scss",
+        "../../Assets/Styles/_partials.scss",
+        "../../Assets/Styles/_partials.scss"
+    ],
+    "names": [],
+    "file": "counter.module.css"
+}

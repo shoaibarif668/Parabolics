@@ -1,0 +1,190 @@
+.lazy__load {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  z-index: 99;
+}
+
+.visible {
+  position: fixed;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  background: #28db7cb4;
+}
+
+.header .nav__wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav__wrapper .nav__menu {
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  margin: 0px 15px;
+  padding-bottom: 2px;
+}
+
+.header .nav__wrapper .nav__menu:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0px;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  width: 0px;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.header .nav__wrapper .nav__menu:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.header .nav__wrapper .active__nav__menu {
+  border-bottom: 1px solid white;
+}
+
+.header .nav__wrapper .active__nav__menu:hover:before {
+  visibility: hidden !important;
+}
+
+.header .nav__wrapper .button__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav__wrapper .button__wrapper .header__buttons {
+  font-family: "Poppins", sans-serif;
+  margin: 0 20px;
+  display: block;
+  padding: 0;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#33cda1), color-stop(#00a9a5), color-stop(#00839b), color-stop(#005e81), to(#183b5c));
+  background-image: linear-gradient(to left, #33cda1, #00a9a5, #00839b, #005e81, #183b5c);
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.header .nav__wrapper .button__wrapper .header__buttons:focus {
+  outline: none;
+}
+
+.header .nav__wrapper .button__wrapper .header__buttons .header__icons {
+  color: white;
+}
+
+.header .nav__wrapper .button__wrapper .header__buttons:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+footer {
+  background-color: #011323;
+  font-family: "poppins", sans-serif;
+}
+
+footer .footer__top__wrapper {
+  padding: 50px 0px;
+}
+
+footer .footer__top__wrapper .footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 35px;
+}
+
+footer .footer__top__wrapper .footer__logo img {
+  margin-bottom: 5px;
+}
+
+footer .footer__top__wrapper .footer__logo p {
+  color: white;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+footer .footer__top__wrapper .footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__top__wrapper .footer__socials a {
+  color: #00cc95;
+  margin: 0px 10px;
+}
+
+footer .footer__bottom__wrapper {
+  padding: 15px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .footer__bottom__wrapper .footer__legal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__bottom__wrapper .footer__legal h6 {
+  color: white;
+  margin-bottom: 0px;
+}
+
+footer .footer__bottom__wrapper .footer__legal .legal__pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__bottom__wrapper .footer__legal .legal__pages a {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: white;
+}
+/*# sourceMappingURL=Widget.module.css.map */

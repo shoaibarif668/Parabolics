@@ -1,0 +1,28 @@
+.space {
+  padding-top: 150px !important;
+}
+
+.pricing__section {
+  font-family: "Poppins", sans-serif;
+  padding: 50px 0;
+  background-color: #011323;
+}
+
+.pricing__section h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pricing__section h1 span {
+  color: #18d26e;
+}
+
+.pricing__section p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=pricing.module.css.map */

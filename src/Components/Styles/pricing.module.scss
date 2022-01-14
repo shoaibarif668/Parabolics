@@ -1,0 +1,27 @@
+@import "../../Assets/Styles/mixins";
+@import "../../Assets/Styles/partials";
+
+.space{
+    padding-top: 150px !important;
+}
+
+.pricing__section{
+    font-family: "Poppins", sans-serif;
+    padding: 50px 0;
+    background-color: #011323;
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        text-align: center;
+        span{
+            color: $primary__color;
+        }
+    }
+    p{
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
