@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Image } from "react-bootstrap";
 import styles from "../Styles/Widget.module.css"
-import {FaFacebookF,FaTwitter,FaInstagram,FaYoutube,FaGooglePlusG,FaLinkedin} from "react-icons/fa"
+import {FaFacebookF,FaTwitter,FaInstagram,FaYoutube,FaPinterestP} from "react-icons/fa"
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Images/logo.png"
 const Footer = () => {
@@ -18,8 +18,7 @@ const Footer = () => {
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
                     <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
                     <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><FaYoutube/></a>
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
-                    <a href="https://google.com/" target="_blank" rel="noopener noreferrer"><FaGooglePlusG/></a>
+                    <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer"><FaPinterestP/></a>
                 </div>
             </section>
             <section className={styles.footer__bottom__wrapper}>

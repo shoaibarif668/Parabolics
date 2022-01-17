@@ -25,4 +25,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0px;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,75 @@
+.auth__section {
+  background: -webkit-gradient(linear, left top, right top, from(#011a2f), color-stop(#37564e), to(#011323));
+  background: linear-gradient(to right, #011a2f, #37564e, #011323);
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0px;
+  min-height: 100vh;
+  font-family: "poppins", sans-serif;
+}
+
+.auth__section .form__wrapper {
+  background-color: #0a2a4f7a;
+  padding: 50px;
+  border-radius: 20px;
+  width: 40%;
+  margin: auto;
+}
+
+.auth__section .form__wrapper .logo__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.auth__section .form__wrapper .form__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.auth__section .form__wrapper .form__header h2 {
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.auth__section .form__wrapper .form__header p {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=auth.module.css.map */

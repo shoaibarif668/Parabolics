@@ -5,9 +5,10 @@ import styles from "../Styles/Widget.module.css"
 import Logo from "../../Assets/Images/logo.png"
 import {AiOutlineUser} from "react-icons/ai"
 import {FaSignInAlt} from "react-icons/fa"
+import { useNavigate } from "react-router"
 const Header = () => {
     const [isScrolling,setIsScrolling] = useState()
-
+    const navigate = useNavigate()
     useEffect(() => {
       if (typeof window !== "undefined") {
         window.onscroll = () => {
@@ -35,8 +36,8 @@ const Header = () => {
                       <NavLink to="/" className={({ isActive }) => `${styles.nav__menu}` + (isActive ? ` ${styles.active__nav__menu}` : "")}>Home</NavLink>
                       <NavLink to="/pricing" className={({ isActive }) => `${styles.nav__menu}` + (isActive ? ` ${styles.active__nav__menu}` : "")}>Pricing</NavLink>
                         <div className={styles.button__wrapper}>
-                            <button className={styles.header__buttons}>Login <span className={styles.header__icons}><AiOutlineUser/></span></button>
-                            <button className={styles.header__buttons}>Signin <span className={styles.header__icons}><FaSignInAlt/></span></button>
+                            <button className={styles.header__buttons} onClick={() => navigate("/login")}>Login <span className={styles.header__icons}><AiOutlineUser/></span></button>
+                            <button className={styles.header__buttons} onClick={() => navigate("/signup")}>Sign up <span className={styles.header__icons}><FaSignInAlt/></span></button>
                         </div>
                     </Nav>
                   </Navbar.Collapse>

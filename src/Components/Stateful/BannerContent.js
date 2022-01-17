@@ -6,8 +6,10 @@ const BannerContent = () => {
         <>
         <div className={`${styles.banner__content__wrapper}`}>
             <h1 className={`${styles.heading}`}>Trading Made Easy!</h1>
-            <h6 className={`${styles.sub__heading}`}>Join Our Newsletter with Daily</h6>
-            <h6 className={`${styles.sub__heading}`}>Watchlists and Free Signals</h6>
+            {/* <h6 className={`${styles.sub__heading}`}>Join Our Newsletter for Daily</h6>
+            <h6 className={`${styles.sub__heading}`}>Watchlists and Free Signals</h6> */}
+            <h6 className={`${styles.sub__heading}`}>Join Our Community Of Top Traders Improving Accuracy</h6>
+            <h6 className={`${styles.sub__heading}`}>& Optimizing Performance With Artifical Intelligence</h6>
             <button className={`${styles.btn}`}>Learn More</button>
             <form className={`${styles.form}`}>
                 <div className={`${styles.input__wrapper}`}>
@@ -16,7 +18,7 @@ const BannerContent = () => {
                 </div>
                 
             </form>
-            <p className={`${styles.paragraph}`}>Enter Email for Free Newsletter with Daily Watchlists and Free Perks</p>
+            <p className={`${styles.paragraph}`}>Enter Email for Free Newsletter for Daily Watchlists and Free Signals</p>
         </div>
         </>
     )

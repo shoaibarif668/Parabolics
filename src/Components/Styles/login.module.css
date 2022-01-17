@@ -1,0 +1,65 @@
+form .form__group .form__input {
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+form .form__group .form__input:focus {
+  outline: none;
+}
+
+form .form__group .form__checkbox {
+  color: white;
+  margin-bottom: 20px;
+}
+
+form .button__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+form .button__wrapper button {
+  width: 100%;
+  background-color: #00b085;
+  height: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+}
+
+form .button__wrapper button:focus {
+  outline: none;
+}
+
+form p {
+  color: white;
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-align: center;
+}
+
+form p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+form p a:hover {
+  color: white;
+}
+/*# sourceMappingURL=login.module.css.map */
