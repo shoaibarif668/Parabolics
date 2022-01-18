@@ -44,7 +44,7 @@ const SignupForm = () => {
     <>
       <Form onSubmit={signup}>
         <div className={styles.form__group}>
-          <input type="email" placeholder="name@example.com" value={details.email} name="email" onChange={inputEvent} className={styles.form__input}  required/>
+          <input type="email" placeholder="email" value={details.email} name="email" onChange={inputEvent} className={styles.form__input}  required/>
         </div >
         <div className={styles.form__group}>
             <input type="text" placeholder="name" value={details.name} name="name" onChange={inputEvent} className={styles.form__input} required/>    

@@ -62,4 +62,22 @@ form p a {
 form p a:hover {
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  form .form__group .form__input {
+    font-size: 12px;
+  }
+  form .form__group .form__checkbox {
+    font-size: 12px;
+  }
+  form .button__wrapper button {
+    font-size: 13px;
+  }
+  form p {
+    font-size: 12px;
+  }
+  form p a {
+    font-size: 12px;
+  }
+}
 /*# sourceMappingURL=login.module.css.map */

@@ -1,6 +1,19 @@
 @import "../../Assets/Styles/mixins";
 @import "../../Assets/Styles/partials";
 
+@media only screen and (max-width: 767px) {
+    .social__wrapper{
+        h1{
+            font-size: 25px !important;
+        }
+        .social__links{
+            a{
+                font-size: 60px !important;
+            }
+        }
+    }
+}
+
 .social__wrapper{
     font-family:"poppins",sans-serif;
     padding: 100px 0;

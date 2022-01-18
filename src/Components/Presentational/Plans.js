@@ -65,7 +65,7 @@ export default Plans;
 Plans.propTypes = {
     planTitle : PropTypes.string.isRequired,
     perks1: PropTypes.array.isRequired,
-    perks2: PropTypes.number,
+    perks2: PropTypes.array,
     monthlyPrice: PropTypes.number.isRequired,
     yearlyPrice: PropTypes.number.isRequired,
 }

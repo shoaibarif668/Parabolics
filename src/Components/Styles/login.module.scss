@@ -1,6 +1,7 @@
 @import "../../Assets/Styles/mixins";
 @import "../../Assets/Styles/partials";
 
+
 form{
     .form__group{
         .form__input{
@@ -57,4 +58,28 @@ form{
             }
         }
     }
+}
+
+@media only screen and (max-width: 600px) {
+    form{
+        .form__group{
+            .form__input{
+                font-size: 12px;
+            }
+            .form__checkbox{
+                font-size: 12px;
+            }
+        }
+        .button__wrapper{
+            button{
+                font-size: 13px;
+            }
+        }
+        p{
+            font-size: 12px;
+            a{
+                font-size: 12px;
+            }
+        }
+    }   
 }

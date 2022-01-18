@@ -1,3 +1,30 @@
+@media only screen and (max-width: 991px) {
+  .plan__wrapper {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .plan__wrapper h2 {
+    font-size: 25px !important;
+  }
+  .plan__wrapper .plan__description ul li {
+    font-size: 13px;
+  }
+  .plan__wrapper .plan__description .plan__membership__wrapper .plan__membership {
+    margin-bottom: 10px;
+  }
+  .plan__wrapper .plan__description .plan__membership__wrapper .plan__membership h3 {
+    font-size: 40px !important;
+  }
+  .plan__wrapper .plan__description .plan__membership__wrapper .plan__membership h6 {
+    font-size: 13px !important;
+  }
+  .plan__wrapper .plan__description .plan__membership__wrapper .plan__membership button {
+    width: 120px !important;
+  }
+}
+
 .plan__wrapper {
   margin: 50px auto;
   padding: 50px;

@@ -1,3 +1,26 @@
+@media only screen and (max-width: 767px) {
+  .content__wrapper .content {
+    margin-bottom: 10px;
+  }
+  .content__wrapper .content h5 {
+    font-size: 16px !important;
+  }
+  .content__wrapper .content h1 {
+    font-size: 32px !important;
+  }
+  .content__wrapper .content p {
+    font-size: 13px !important;
+  }
+  .content__wrapper .content__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .content__wrapper {
   padding: 100px 0;
   background-position: center;
@@ -35,5 +58,9 @@
 .content__wrapper .content p {
   font-size: 16px;
   font-weight: 400;
+}
+
+.content__wrapper .content__image img {
+  width: 100%;
 }
 /*# sourceMappingURL=Content.module.css.map */

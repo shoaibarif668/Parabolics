@@ -1,3 +1,18 @@
+@media only screen and (max-width: 767px) {
+  .banner__content__wrapper .heading {
+    font-size: 38px !important;
+  }
+  .banner__content__wrapper .sub__heading {
+    font-size: 18px !important;
+  }
+  .banner__content__wrapper .btn {
+    font-size: 14px !important;
+  }
+  .banner__content__wrapper .paragraph {
+    font-size: 13px !important;
+  }
+}
+
 .banner__content__wrapper .heading {
   font-weight: 700;
   color: white;

@@ -1,6 +1,30 @@
 @import "../../Assets/Styles/partials";
 @import "../../Assets/Styles/mixins";
 
+
+@media only screen and (max-width: 767px) {
+    .content__wrapper{
+        
+        .content{
+            margin-bottom: 10px;
+            h5{
+                font-size: 16px !important;
+            }
+            h1{
+                font-size: 32px !important;
+            }
+            p{
+                font-size: 13px !important;
+            }
+        }
+        .content__image{
+            display:flex;
+            justify-content: center;
+        }
+    }
+}
+
+
 .content__wrapper{
     padding: 100px 0;
     background-position: center;
@@ -28,6 +52,11 @@
         p{
             font-size: 16px;
             font-weight: 400;
+        }
+    }
+    .content__image{
+        img{
+            width: 100%;
         }
     }
 }

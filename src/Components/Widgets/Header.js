@@ -26,7 +26,7 @@ const Header = () => {
     return(
         <>
         <header className={`${styles.header} ${styles.lazy__load} ${isScrolling}`}>
-            <Navbar>
+            <Navbar collapseOnSelect expand="lg" >
                 <Container>
                 <Navbar.Brand><Image src={Logo} alt="Parabolics"/></Navbar.Brand>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />

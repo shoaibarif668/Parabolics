@@ -1,3 +1,16 @@
+@media only screen and (max-width: 767px) {
+  .counter__content__wrapper {
+    margin-bottom: 10px;
+  }
+  .counter__content__wrapper h1, .counter__content__wrapper span {
+    font-size: 35px !important;
+    padding-bottom: 5px !important;
+  }
+  .counter__content__wrapper h3 {
+    font-size: 14px !important;
+  }
+}
+
 .counter__content__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

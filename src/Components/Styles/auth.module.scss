@@ -1,6 +1,8 @@
 @import "../../Assets/Styles/mixins";
 @import "../../Assets/Styles/partials";
 
+
+
 .auth__section{
     background: linear-gradient(to right, #011a2f, #37564e, #011323);
     position: relative;
@@ -49,4 +51,32 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 991px) {
+    .auth__section{
+        .form__wrapper{
+            width: 70%;
+        }
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    .auth__section{
+        .form__wrapper{
+            width: 90%;
+            padding: 35px;
+            .form__header{
+                h2{
+                    font-size: 25px;
+                    padding-bottom: 0px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+        }
+    }   
 }

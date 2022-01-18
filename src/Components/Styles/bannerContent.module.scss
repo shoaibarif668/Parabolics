@@ -1,6 +1,23 @@
 @import "../../Assets/Styles/partials";
 @import "../../Assets/Styles/mixins";
 
+@media only screen and (max-width: 767px) {
+    .banner__content__wrapper{
+        .heading{
+            font-size: 38px !important;
+        }
+        .sub__heading{
+            font-size: 18px !important;
+        }
+        .btn{
+            font-size: 14px !important;
+        }
+        .paragraph{
+            font-size: 13px !important;
+        }
+    }
+}
+
 .banner__content__wrapper{
     .heading{
         font-weight: 700;

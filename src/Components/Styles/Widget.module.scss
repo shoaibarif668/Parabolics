@@ -13,7 +13,42 @@
     transition: all .5s ease-in-out;
     background: #28db7cb4;
 }
+
+@media only screen and (max-width: 767px) {
+    .header{
+        .nav__wrapper{
+            .nav__menu{
+                font-size: 13px !important;
+            }
+            .button__wrapper{
+                .header__buttons{
+                    font-size: 12px !important;
+                    width: 120px !important;
+                }
+            }
+        }
+    }
+    footer{
+        .footer__bottom__wrapper{
+            .footer__legal{
+                flex-wrap: wrap;
+                justify-content: center !important;
+                h6{
+                    padding-bottom: 10px;
+                    font-size: 12px !important;
+                }
+                .legal__pages{
+                    a{
+                        font-size: 11px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .header{
+    max-width: 100vw;
     .nav__wrapper{
     align-items: center;
         .nav__menu{
@@ -123,6 +158,7 @@ footer{
             display:flex;
             align-items: center;
             justify-content:space-between;
+            
             h6{
                 color: white;
                 margin-bottom: 0px;

@@ -72,4 +72,26 @@
   line-height: 25px;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 991px) {
+  .auth__section .form__wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .auth__section .form__wrapper {
+    width: 90%;
+    padding: 35px;
+  }
+  .auth__section .form__wrapper .form__header h2 {
+    font-size: 25px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .auth__section .form__wrapper .form__header p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=auth.module.css.map */

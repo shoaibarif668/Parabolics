@@ -18,7 +18,7 @@ const BannerContent = () => {
                 </div>
                 
             </form>
-            <p className={`${styles.paragraph}`}>Enter Email for Free Newsletter for Daily Watchlists and Free Signals</p>
+            <p className={`${styles.paragraph}`}>Join Our Newsletter for Daily Watchlists and Free Signals</p>
         </div>
         </>
     )
