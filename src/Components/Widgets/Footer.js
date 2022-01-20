@@ -14,11 +14,11 @@ const Footer = () => {
                     <p>contact@parabolics.io</p>
                 </div>
                 <div className={styles.footer__socials}>
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
-                    <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><FaYoutube/></a>
-                    <a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer"><FaPinterestP/></a>
+                    <a href="https://www.facebook.com/parabolics.io" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a>
+                    <a href="https://twitter.com/ParabolicsLLC" target="_blank" rel="noopener noreferrer"><FaTwitter/></a>
+                    <a href="https://www.instagram.com/parabolics.io" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
+                    {/*<a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><FaYoutube/></a>*/}
+                    <a href="https://pin.it/34R9bXH" target="_blank" rel="noopener noreferrer"><FaPinterestP/></a>
                 </div>
             </section>
             <section className={styles.footer__bottom__wrapper}>
@@ -27,8 +27,8 @@ const Footer = () => {
                         <h6>Copyright © 2022 Parabolics All rights reserved.</h6>
                         <div className={styles.legal__pages}>
                             <Link to="/disclaimer">Disclaimer</Link>
-                            <Link to="/disclaimer">Privacy Policy</Link>
-                            <Link to="/disclaimer">Terms Of Use</Link>
+                            <Link to="/privacy-policy">Privacy Policy</Link>
+                            <Link to="/terms-of-use">Terms Of Use</Link>
                         </div>
                     </div>
                 </Container>

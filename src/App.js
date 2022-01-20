@@ -18,6 +18,9 @@ import Home from "./Pages/Home";
 import Pricing from "./Pages/Pricing";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
+import Disclaimer from "./Pages/Disclaimer";
+import TermsOfUse from "./Pages/TermsOfUse";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
         <Route path="/" element={<PublicRoute/>}>
           <Route index element={<Home/>}/>
           <Route path="/pricing" element={<Pricing/>}/>
+          <Route path="/disclaimer" element={<Disclaimer/>}/>
+          <Route path="/terms-of-use" element={<TermsOfUse/>}/>v
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
         </Route>
         <Route path="/">
           <Route path="/login" element={<Login/>}/>

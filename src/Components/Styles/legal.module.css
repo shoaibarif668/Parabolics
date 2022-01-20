@@ -1,0 +1,25 @@
+.legalWrapper {
+  padding-top: 150px;
+  background-color: #011323;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 50px;
+}
+.legalWrapper h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.legalWrapper h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.legalWrapper ul li {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=legal.module.css.map */
