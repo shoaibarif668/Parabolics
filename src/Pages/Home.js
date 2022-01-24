@@ -26,7 +26,7 @@ const Home = () => {
                 heading="Automated Alerts & "
                 headingBold="Trading Signals."
                 subHeading="Master the Market"
-                text="We have Designed, Back tested, and continually Optimize our collection of Machine Learning models to beat the markets. By using Artificial Intelligence, Parabolics has been able to gain an edge and find the best trading opportunities for Stocks, Options, Crypto, Forex, & Futures. Our tools and Trade Signals can also be accessed on both Discord and Telegram."
+                text="Here at Parabolics, we have designed, backtested, and continually optimize our collection of Machine Learning models to beat the markets. By using Artificial Intelligence, Parabolics has been able to gain an edge and find the best trading opportunities for Stocks, Options, Crypto, Forex, & Futures. Our tools and Trade Signals can also be accessed on both Discord and Telegram."
                 image={comp}
                 bgImage={comp_bg}/>
             <Pricing isFirst={false}/>
