@@ -2,105 +2,147 @@
 @import "../../Assets/Styles/partials";
 
 
-@media only screen and (max-width: 991px) {
-    .plan__wrapper{
-        width: 90% !important;
-    }
-}
-@media only screen and (max-width: 767px) {
-    .plan__wrapper{
-        h2{
-            font-size: 25px !important;
-        }
-        .plan__description{
-            ul{
-                li{
-                    font-size: 13px;
-                }
-            }
-            .plan__membership__wrapper{
-                .plan__membership{
-                    margin-bottom: 10px;
-                    h3{
-                        font-size: 40px !important;
-                    }
-                    h6{
-                        font-size: 13px !important;
-                    }
-                    button{
-                        width: 120px !important;
-                    }
-                }
-            }
-        }
-    }
-}
-.plan__wrapper{
-    margin: 50px auto;
-    padding: 50px;
-    width: 50%;
-    border: 1px solid $primary__color;
-    border-radius: 20px;
-    h2{
-        text-align: center;
+.plan__wrapper {
+  margin: 50px auto;
+  padding: 50px;
+  width: 50%;
+  border: 1px solid $primary__color;
+  border-radius: 20px;
+
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
+  }
+
+  .plan__description {
+    margin-top: 60px;
+
+    ul {
+      li {
+        list-style: none;
+        margin-bottom: 30px;
         color: white;
-        font-size: 33px;
-        font-weight: 700;
-    }
-    .plan__description{
-        margin-top: 60px;
-        ul {
-            li{
-                list-style: none;
-                margin-bottom: 30px;
-                color: white;
-                span{
-                    margin-right: 5px;
-                    background-color: $secondary__color;
-                    padding: 10px;
-                    border-radius: 50%;
-                    width: 15px;
-                    height:15px;
-                    svg{
-                        color: white;
-                        font-size: 24px;
-                    }
-                }
-            }
+
+        span {
+          margin-right: 5px;
+          background-color: $secondary__color;
+          padding: 10px;
+          border-radius: 50%;
+          width: 15px;
+          height: 15px;
+
+          svg {
+            color: white;
+            font-size: 24px;
+          }
         }
-        .plan__membership__wrapper{
-            .plan__membership{
-                text-align: center;
-                h3{
-                    color: #fff;
-                    font-size: 52px;
-                    font-weight: 700;
-                    margin-bottom: 10px;
-                }
-                h6{
-                    color: white;
-                    font-size: 16px;
-                    font-weight: 500;
-                    margin-bottom: 5px;
-                }
-                button{
-                    width: 150px;
-                    margin-top: 15px;
-                    background-color: transparent;
-                    color: white;
-                    transition: all 0.5s;
-                    border-radius: 50px;
-                    padding: 12px;
-                    border: 1px solid $primary__color;
-                    &:hover{
-                        background-color: $primary__color;
-                        
-                    }
-                    &:focus{
-                        outline: none;
-                    }
-                }
-            }
-        }
+      }
     }
+
+    .plan__membership__wrapper {
+      .plan__membership {
+        text-align: center;
+
+        h3 {
+          color: #fff;
+          font-size: 52px;
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+
+        h6 {
+          color: white;
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        button {
+          width: 150px;
+          margin-top: 15px;
+          background-color: transparent;
+          color: white;
+          transition: all 0.5s;
+          border-radius: 50px;
+          padding: 12px;
+          border: 1px solid $primary__color;
+
+          &:hover {
+            background-color: $primary__color;
+
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .plan__wrapper {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .plan__wrapper {
+    h2 {
+      font-size: 25px !important;
+    }
+
+    .plan__description {
+      ul {
+        li {
+          font-size: 13px;
+        }
+      }
+
+      .plan__membership__wrapper {
+        .plan__membership {
+          margin-bottom: 10px;
+
+          h3 {
+            font-size: 40px !important;
+          }
+
+          h6 {
+            font-size: 13px !important;
+          }
+
+          button {
+            width: 120px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .plan__wrapper {
+    padding: 25px;
+
+    .plan__description {
+      ul {
+        li {
+          font-size: 10px;
+
+          span {
+            width: 5px;
+            height: 5px;
+            padding: 5px;
+
+            svg {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
