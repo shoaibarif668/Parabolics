@@ -7,8 +7,8 @@ import {toast} from "react-toastify"
 
 const LoginForm = () => {
     const [details, setDetails] = useState({
-        email: "",
-        password: ""
+        mail: "",
+        pass: ""
     })
     const [isLoading, setIsLoading] = useState(false)
 
@@ -42,11 +42,11 @@ const LoginForm = () => {
         <>
             <Form onSubmit={login}>
                 <div className={styles.form__group}>
-                    <input type="email" placeholder="email" value={details.email} name="email" onChange={inputEvent}
+                    <input type="email" placeholder="email" value={details.mail} name="mail" onChange={inputEvent}
                            className={styles.form__input} required/>
                 </div>
                 <div className={styles.form__group}>
-                    <input type="password" placeholder="password" value={details.password} name="password"
+                    <input type="password" placeholder="password" value={details.pass} name="pass"
                            onChange={inputEvent} className={styles.form__input} required/>
                 </div>
                 <div className={styles.form__group}>
