@@ -63,12 +63,26 @@
   outline: none;
 }
 
+@media only screen and (max-width: 1400px) {
+  .plan__wrapper {
+    width: 70%;
+  }
+}
 @media only screen and (max-width: 991px) {
   .plan__wrapper {
-    width: 90% !important;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .plan__wrapper {
+    width: 95%;
   }
 }
 @media only screen and (max-width: 767px) {
+  .plan__wrapper {
+    width: 90%;
+  }
+
   .plan__wrapper h2 {
     font-size: 25px !important;
   }
