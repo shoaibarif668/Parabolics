@@ -41,6 +41,9 @@ form{
             &:focus{
                 outline: none;
             }
+            &:disabled{
+                background-color: lightgray;
+            }
         }
         
     }

@@ -11,9 +11,11 @@ const LoginForm = () => {
         password: ""
     })
     const [isLoading, setIsLoading] = useState(false)
+
     const login = (e) => {
-        setIsLoading(true)
+
         e.preventDefault()
+        setIsLoading(true)
         axios
             .post(`/login`, details)
             .then((response) => {

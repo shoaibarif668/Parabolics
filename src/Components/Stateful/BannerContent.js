@@ -2,7 +2,7 @@ import React, {useCallback, useState} from "react";
 import styles from "../Styles/bannerContent.module.css"
 import {Spinner} from "react-bootstrap"
 import {FaPlus} from "react-icons/fa"
-import axios from "../../Utils/axiosInstance";
+import axios from "axios";
 import {toast} from "react-toastify";
 import validator from 'validator' //Validates email for us
 
@@ -21,7 +21,7 @@ const BannerContent = () => {
                 } else {
                     setIsLoading(true)
                     axios
-                        .post(`/subscribe?mail=${details.mail}`, "")
+                        .post(`https://apo5gzt4s0.execute-api.us-east-2.amazonaws.com/dev/subscribe?mail=${details.mail}`, "")
                         .then((response) => {
                             toast.success(response.data.message)
                             localStorage.setItem("subscription", details.mail)
