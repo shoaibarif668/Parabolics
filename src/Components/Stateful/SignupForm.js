@@ -33,7 +33,7 @@ const SignupForm = () => {
         if (passwordValidation()) {
             setIsLoading(true)
             axios
-                .post(`/signup`, details)
+                .post(`/register`, details)
                 .then((response) => {
                     if (response.status === 200) {
                         toast.success(response.message)
