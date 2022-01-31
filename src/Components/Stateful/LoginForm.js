@@ -4,6 +4,8 @@ import axios from "../../Utils/axiosInstance"
 import {Link} from "react-router-dom";
 import styles from "../Styles/login.module.css"
 import {toast} from "react-toastify"
+import Cookies from 'js-cookie'
+import {cookieUserAuth, cookieSessionAuth} from "../../Utils/config"
 
 const LoginForm = () => {
     const [details, setDetails] = useState({
@@ -19,7 +21,9 @@ const LoginForm = () => {
         axios
             .post(`/login`, details)
             .then((response) => {
-                toast.success(response.message)
+                toast.success(response.data.message)
+                Cookies.set(cookieUserAuth, response.data.userhex)
+                Cookies.set(cookieSessionAuth, response.data.sessionhex)
             })
             .catch((error) => {
                 toast.error(error.message)

@@ -35,9 +35,10 @@ const SignupForm = () => {
             axios
                 .post(`/register`, details)
                 .then((response) => {
-                    if (response.status === 200) {
-                        toast.success(response.message)
+                    if (response.status === 200 || response.status === 201) {
+                        toast.success(response.data.message)
                     }
+
                 })
                 .catch((error) => {
                     toast.error(error.message)
